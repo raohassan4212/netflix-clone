@@ -1,7 +1,7 @@
 import "./App.css";
-import Banner from "./components/Banner";
-import Nav from "./components/Nav";
-import Row from "./components/Row";
+import Banner from "./components/banner/Banner";
+import Nav from "./components/nav/Nav";
+import Row from "./components/row/Row";
 import requests from "./requests";
 
 function App() {
