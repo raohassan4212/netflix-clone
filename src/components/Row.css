@@ -1,3 +1,8 @@
+.row {
+    margin: 1%;
+    color: white;
+}
+
 .row-posters {
     display: flex;
     overflow-y: hidden;
@@ -13,10 +18,18 @@
     object-fit: contain;
     width: 100%;
     max-height: 150px;
-    margin: 0 5px;
+    margin: 0 8px;
     transition: transform 450ms;
 }
 
 .row-poster:hover {
     transform: scale(1.08);
+}
+
+.row-poster-large {
+    max-height: 250px;
+}
+
+.row-poster-large:hover {
+    transform: scale(1.09);
 }
